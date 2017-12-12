@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/*CS5 Reset*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code	
+	, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio,
+	video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	}
+
+
+@font-face {
+    font-family: 'proximaNova';
+    src: url(../fonts/ProximaNova-Regular.otf);  
+}
+
+@font-face {
+    font-family: 'proximaNova-light';
+    src: url(../fonts/ProximaNova-Light.otf);
+}
+
+@font-face {
+    font-family: 'proximaNova-bold';
+    src: url(../fonts/ProximaNova-bold.otf);
+}
+
+html, body{
+    font-family: 'proximanova', sans-serif;
+    color: black;
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+
+h1 {
+    font-family: 'proximaNova-light';
+    font-size: 36px;
+    font-weight: 100;
+    color: white;  
+}
+
+h2 {
+    font-size: 24px; 
+    font-weight: 200;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.wrap {
+    margin: 0 auto; 
+    max-width: 640px;
+}
+
+
+/*-------------------------------------------
+                   Header
+-------------------------------------------*/
+
+header {
+    background-color: #51ad8a;
+    background-image: url(/images/shutterstock_295779899.jpg);
+    background-size:cover;
+    height: 400px;
+    width: 100%;
+       
+}
+
+header p {
+    padding: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: white;
+}
+
+header p span {
+    font-family: 'proximaNOva-light';
+    font-weight: 100;
+}
+
+header img {
+    width: 314px;
+    margin: 2em
+    
+}
+
+header section {
+    background-color: rgba(81, 173, 138, 0.85);
+    height: 120px;
+    bottom: 0px;
+    margin-top: 94px;
+}
+
+header section h1 {
+    padding: 42px;    
+}
+
+/*-------------------------------------------
+         Email message + button
+-------------------------------------------*/
+
+
+section h2 {    
+    margin: 40px 16px 20px 16px;
+    text-align: left;    
+}
+
+div > section > p {
+    text-align: left;
+}
+
+div > section:first-child p {
+    margin: 20px 16px 32px 16px;
+}
+
+section p a {
+    font-weight: 900;
+    color: #51ad8a;
+    text-decoration: none;
+}
+
+section p li:first-of-type { 
+    margin-top: 20px;    
+}
+
+section p li {
+    display: block; 
+    max-width: 300px;
+}
+
+section p li span {
+    display: inline-block;
+    font-family: 'proximanova-bold';
+    float: right;
+}
+
+.button {
+    background-color: #51ad8a;
+    height: 64px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 32px 0px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/*-------------------------------------------
+                Questions
+-------------------------------------------*/
+
+.questions {
+    background-color: rgba(0, 0, 0, 0.05);;
+    height: 312px;
+    margin: 32px 16px;
+    border-radius: 4px;    
+}
+
+.questions p b {
+     font-family: 'proximanova-bold';
+}
+
+.questions > p {
+    padding: 32px; 48px;
+    margin: 0px;
+}
+
+.questions > section {
+    margin-top: 24px;
+    
+}
+
+.questions > section img {
+    height: 40px;
+    margin-bottom: 16px;
+    
+    
+}
+
+.questions section > section {
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    height: 104px;
+    margin: 0px 10px;
+}
+
+.questions section > section p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.questions section > section p b {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+
