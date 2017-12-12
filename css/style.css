@@ -18,7 +18,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 @font-face {
     font-family: 'proximaNova';
-    src: url(../fonts/ProximaNova-Regular.otf);  
+    src: url(../fonts/ProximaNova-Regular.otf);
 }
 
 @font-face {
@@ -31,35 +31,43 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     src: url(../fonts/ProximaNova-bold.otf);
 }
 
-html, body{
+html,
+body {
     font-family: 'proximanova', sans-serif;
     color: black;
-    width:100%;
-    height:100%;
-    text-align:center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 h1 {
     font-family: 'proximaNova-light';
     font-size: 36px;
     font-weight: 100;
-    color: white;  
+    color: white;
 }
 
 h2 {
-    font-size: 24px; 
+    font-size: 24px;
     font-weight: 200;
 }
 
 p {
     font-size: 16px;
     line-height: 24px;
-    
 }
 
 .wrap {
-    margin: 0 auto; 
+    margin: 0 auto;
     max-width: 640px;
+}
+
+hr {
+    display: block;
+    height: 4px;
+    border: 0;
+    border-top: 4px solid #f19f00;
+    margin: 32px 16px;
 }
 
 
@@ -69,11 +77,10 @@ p {
 
 header {
     background-color: #51ad8a;
-    background-image: url(/images/shutterstock_295779899.jpg);
-    background-size:cover;
+    background-image: url(/images/headerimage.jpg);
+    background-size: cover;
     height: 400px;
     width: 100%;
-       
 }
 
 header p {
@@ -92,7 +99,6 @@ header p span {
 header img {
     width: 314px;
     margin: 2em
-    
 }
 
 header section {
@@ -103,25 +109,26 @@ header section {
 }
 
 header section h1 {
-    padding: 42px;    
+    padding: 42px;
 }
+
 
 /*-------------------------------------------
          Email message + button
 -------------------------------------------*/
 
-
-section h2 {    
+section h2 {
     margin: 40px 16px 20px 16px;
-    text-align: left;    
-}
-
-div > section > p {
     text-align: left;
 }
 
+div > section > p, li {
+    text-align: left;
+    margin: 0px 16px;
+}
+
 div > section:first-child p {
-    margin: 20px 16px 32px 16px;
+    margin: 20px 16px 20px 16px;
 }
 
 section p a {
@@ -130,16 +137,18 @@ section p a {
     text-decoration: none;
 }
 
-section p li:first-of-type { 
-    margin-top: 20px;    
-}
-
-section p li {
-    display: block; 
+section li {
+    display: block;
     max-width: 300px;
+    text-align: left;
 }
 
-section p li span {
+section li:last-of-type{
+    margin-bottom: 32px;
+    
+}
+
+section li span {
     display: inline-block;
     font-family: 'proximanova-bold';
     float: right;
@@ -156,7 +165,8 @@ section p li span {
     display: inline-block;
     font-size: 16px;
     margin: 32px 0px;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
     text-transform: uppercase;
@@ -173,31 +183,28 @@ section p li span {
 -------------------------------------------*/
 
 .questions {
-    background-color: rgba(0, 0, 0, 0.05);;
+    background-color: rgba(0, 0, 0, 0.05);
     height: 312px;
     margin: 32px 16px;
-    border-radius: 4px;    
+    border-radius: 4px;
 }
 
 .questions p b {
-     font-family: 'proximanova-bold';
+    font-family: 'proximanova-bold';
 }
 
 .questions > p {
-    padding: 32px; 48px;
+    padding: 32px;
     margin: 0px;
 }
 
 .questions > section {
     margin-top: 24px;
-    
 }
 
 .questions > section img {
     height: 40px;
     margin-bottom: 16px;
-    
-    
 }
 
 .questions section > section {
@@ -218,6 +225,20 @@ section p li span {
     font-size: 16px;
     line-height: 24px;
 }
+
+/*-------------------------------------------
+                Footers
+-------------------------------------------*/
+footer {
+    margin-top: 2em;
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+footer a {
+    margin: .5em;
+}
+
 
 
 
